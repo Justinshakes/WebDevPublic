@@ -1,8 +1,15 @@
+/*
+Challenge:
+Turn the elements into blocks!
+*/
+
 input {
     width: 400px;
+    display: block;
 }
 
 
 img {
-
+    display: block;
+    width: 300px;
 }
