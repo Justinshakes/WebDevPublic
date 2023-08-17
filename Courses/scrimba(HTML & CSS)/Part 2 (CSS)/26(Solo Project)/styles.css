@@ -14,6 +14,10 @@ p {
     text-align: center;
 }
 
+.terms-p {
+    margin-bottom: 30px;
+}
+
 .border-img {
     border: solid 5px black;
 }
