@@ -1,4 +1,59 @@
 html, body {
-    margin: 0;
+    margin: 10px;
     padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.border-img {
+    border: solid 5px black;
+}
+
+.steam-img {
+    display: block;
+    width: 100%;
+}
+
+.email-input,
+.join-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 1em;
+    box-sizing: border-box; /* This property ensures that borders are included in the dimensions */
+    border: solid 2px black;
+}
+
+.join-btn {
+    margin-top: 10px;
+    background: black;
+    color: white;
+}
+
+.join-btn:hover {
+    background: white;
+    color: black;
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.join-btn:active {
+    background: gray; /* Change color when clicked */
+    color: white;
+}
+
+a:hover {
+    color: dodgerblue;
 }
