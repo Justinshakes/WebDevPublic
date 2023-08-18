@@ -1,63 +1,76 @@
+/* Set margin, padding, and font for the entire HTML document */
 html, body {
-    margin: 10px;
-    padding: 0;
-    font-family: Arial, sans-serif;
+    margin: 10px; /* Add margin around the page content */
+    padding: 0; /* Remove padding from the page */
+    font-family: Arial, sans-serif; /* Set font family for text */
 }
 
+/* Style for the main heading */
 h1 {
-    font-weight: bold;
-    font-size: 2.5em;
-    text-align: center;
+    font-weight: bold; /* Set font weight to bold */
+    font-size: 2.5em; /* Set font size */
+    text-align: center; /* Center align the text */
 }
 
+/* Style for paragraphs */
 p {
-    text-align: center;
+    text-align: center; /* Center align the text */
 }
 
+/* Style for a specific paragraph class */
 .terms-p {
-    margin-bottom: 30px;
+    margin-bottom: 30px; /* Add margin at the bottom of the paragraph */
 }
 
+/* Style for an image container with a border */
 .border-img {
-    border: solid 5px black;
+    border: solid 5px black; /* Add a solid black border */
 }
 
+/* Style for an image inside a container */
+/* Style for an image inside a container */
 .steam-img {
     display: block;
-    width: 100%;
+    max-width: 100%; /* Set maximum width to 100% of the container */
 }
 
+
+/* Styles for email input and join button */
 .email-input,
 .join-btn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 300px;
-    height: 40px;
-    font-weight: bold;
-    font-size: 1em;
-    box-sizing: border-box; /* This property ensures that borders are included in the dimensions */
-    border: solid 2px black;
+    display: block; /* Set both elements to be block elements */
+    margin-left: auto; /* Auto margin on the left side */
+    margin-right: auto; /* Auto margin on the right side */
+    text-align: center; /* Center align the text */
+    width: 300px; /* Set width of the elements */
+    height: 40px; /* Set height of the elements */
+    font-weight: bold; /* Set font weight to bold */
+    font-size: 1em; /* Set font size */
+    box-sizing: border-box; /* Include borders in element dimensions */
+    border: solid 2px black; /* Add a solid black border */
 }
 
+/* Additional style for the join button */
 .join-btn {
-    margin-top: 10px;
-    background: black;
-    color: white;
+    margin-top: 10px; /* Add margin on the top side */
+    background: black; /* Set background color to black */
+    color: white; /* Set text color to white */
 }
 
+/* Style for the join button on hover */
 .join-btn:hover {
-    background: white;
-    color: black;
+    background: white; /* Change background color on hover */
+    color: black; /* Change text color on hover */
     cursor: pointer; /* Show pointer cursor on hover */
 }
 
+/* Style for the join button when active/clicked */
 .join-btn:active {
-    background: gray; /* Change color when clicked */
-    color: white;
+    background: gray; /* Change background color when clicked */
+    color: white; /* Change text color when clicked */
 }
 
+/* Style for links on hover */
 a:hover {
-    color: dodgerblue;
+    color: dodgerblue; /* Change link color on hover */
 }
