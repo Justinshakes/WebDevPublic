@@ -7,8 +7,10 @@ body {
 }
 
 .card {
+    display: flex;
     border: 1px dotted blue;
     padding: 20px;
+
 }
 /*
 Challenge:
