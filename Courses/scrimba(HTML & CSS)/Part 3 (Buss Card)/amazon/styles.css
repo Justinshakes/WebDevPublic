@@ -17,6 +17,22 @@ body {
     display: flex;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+a {
+    color: #007185;
+}
+
+a:hover {
+    color: blue;
+}
+
+.breadcrumb {
+    color: #565959;
+}
+
 
 
 
