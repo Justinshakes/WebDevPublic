@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.main-body{
+    display: flex;
+    
+
+    
+}
+
+
+.cover-image{
+    color: #565959;
+    
+    
+}
+.content h1{
+    font-weight: lighter;
+}
+
+.cover-image img{
+    width: 300px;
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+.content{
+   
+    
+    padding-left: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+a:link {
+    color: #007185;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
