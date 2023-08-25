@@ -40,3 +40,7 @@ Add the underline to the title using a <span> and a class.
 .btn:hover {
     background: lightblue;
 }
+
+a {
+    text-decoration: none;
+}
